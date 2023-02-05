@@ -34,7 +34,7 @@ class DatasetCleaner:
 
         self.all_files = glob.glob(f"{filename}/*.*")
 
-    def clean_data(self):
+    def clean_data(self) -> None:
         start = perf_counter()
 
         start_i = 0
